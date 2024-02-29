@@ -8,7 +8,7 @@ function Navbar() {
           <div className={styles.logoContainer}>
 {        /*   <img src="assets/img/public/logo.svg" alt="Logo" />
   */}        
-      <a href="#">mangcoding Store</a>
+      <a href="#">Ecommerce</a>
           </div>
           <nav>
             <ul>
@@ -18,25 +18,22 @@ function Navbar() {
                 </a>
               </li>
               <li>
-                <a href="#">Course</a>
+                <a href="#">Products</a>
               </li>
               <li>
-                <a href="#">About us</a>
+                <a href="#">Cart</a>
               </li>
               <li>
-                <a href="#">Article</a>
-              </li>
-              <li>
-                <a href="#">Contact</a>
+                <a href="#">Categories</a>
               </li>
             </ul>
           </nav>
           <div className={styles.authContainer}>
             <a href="#" className={styles.login}>
-              Log in
+            SignIn
             </a>
             <a href="#" className={styles.register}>
-              Register
+            SignUp
             </a>
           </div>
         </div>
